@@ -1,0 +1,69 @@
+
+<DOCTYPE html>
+<html>
+    
+    
+<head>
+        
+  <meta charset = "UTF-8">        
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="StyleSheet.css"> 
+    
+</head>
+    
+    
+    
+<body>
+    
+  <div class="container">
+     <div class="jumbotron mystyle">   
+  <h1> Random Winner Generator </h1>
+    </div> <!--close jumbotron-->
+        
+<form>
+   <div class="row">
+    <div class="col-sm-4"> 
+  <p>Who will be the winner?</p>
+    
+  <p>Enter a contestant below and click Store:</p>
+ 
+  <input type="text" id="input1"/>
+    </div><!--close column-->
+       
+    <div class="col-sm-4">
+      <p> Click Display to see the contestants currently entered and Hide to hide them:</p>
+
+        </div><!--close column-->
+        
+     <div class="col-sm-4">
+         <p> Once you have entered all the contestants, click Winner to see who wins!</p> 
+         <p> And the winner is...</p>
+        </div><!--close column-->
+       
+  </div><!--close row-->
+       
+</form> 
+      
+  <div class="row"> 
+    <div class="col-sm-4">
+<div><button id="button1">Store</button></div><br>    
+        </div><!--close column-->   
+
+     <div class="col-sm-4">   
+<div><button id="button2">Display</button><button id="button3">Hide</button></div><br> 
+         <div id="entries"></div><br>                
+       </div><!--close column-->
+
+     <div class="col-sm-4">   
+    
+<div><button id="button4">Winner</button></div>
+      
+<div id="winner"></div> 
+      </div><!--close column-->
+      </div><!--close row-->
+<script src=Javascript.js></script>       
+        
+    </div><!--closing container-->        
+</body>
+</html>
